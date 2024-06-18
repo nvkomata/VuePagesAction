@@ -21,9 +21,9 @@ jobs:
     runs-on: ubuntu-latest
     name: Build Vue
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     - id: Build-Vue
-      uses: nvkomata/VuePagesAction@1.0.0
+      uses: nvkomata/VuePagesAction@1.1
       with:
         username: 'YourGithubName'
         reponame: 'YourRepoName'
