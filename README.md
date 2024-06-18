@@ -3,11 +3,9 @@ This Action will Build your Vue Project and deploy it to Github Pages
 
 ## Getting Started 🎉
 
-1.
-You should have a `vite.config.js` or a `vite.config.ts` file at the root of your directory. Create one if you don't.
-2.
+1. You should have a `vite.config.js` or a `vite.config.ts` file at the root of your directory. Create one if you don't.
 
-Add this to you `vite.config.js` or `vite.config.ts` (and rename "YourRepoName" to your repo name)
+3. Add this to you `vite.config.js` or `vite.config.ts` (and rename "YourRepoName" to your repo name)
 ```javascript
 export default defineConfig({
   ... // Already existing configurations
